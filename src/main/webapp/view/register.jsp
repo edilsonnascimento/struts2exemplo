@@ -5,9 +5,10 @@
 	<head>
 		<meta charset="ISO-8859-1">
 		<title>Register</title>
+		<s:head />
   	</head>
   	<body>
-	    <h3>Register for a prize by completing this form.</h3>
+	    <h3>Register for a prize by completing this form.</h3>	    
 	    <s:form action="register">
 	      <s:textfield name="personBean.firstName" label="First name" />
 	      <s:textfield name="personBean.lastName" label="Last name" />
